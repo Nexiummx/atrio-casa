@@ -1,0 +1,21 @@
+import { useLayoutEffect, useState } from "react";
+
+/**
+ * `true` cuando `window.matchMedia(query)` coincide.
+ * Estado inicial lee `window` en cliente para evitar flash en desktop.
+ */
+export function useMediaQuery(query: string): boolean {
+  const [matches, setMatches] = useState(() =>
+    typeof window !== "undefined" ? window.matchMedia(query).matches : false,
+  );
+
+  useLayoutEffect(() => {
+    const mq = window.matchMedia(query);
+    const update = () => setMatches(mq.matches);
+    update();
+    mq.addEventListener("change", update);
+    return () => mq.removeEventListener("change", update);
+  }, [query]);
+
+  return matches;
+}
