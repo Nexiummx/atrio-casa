@@ -14,9 +14,9 @@ export function SiteLayout() {
   }, [location.pathname, location.search]);
 
   return (
-    <div className="min-h-screen bg-primary-bg text-ink-primary">
+    <div id="top" className="min-h-screen bg-primary-bg text-ink-primary">
       <Header />
-      <main className="pt-[4.5rem]">
+      <main>
         <AnimatePresence mode="wait">
           <motion.div
             key={location.pathname}
@@ -24,7 +24,7 @@ export function SiteLayout() {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="min-h-[calc(100vh-4.5rem)]"
+            className="min-h-[calc(100vh-52px)]"
           >
             <Outlet />
           </motion.div>

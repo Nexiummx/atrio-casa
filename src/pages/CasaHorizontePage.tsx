@@ -27,7 +27,7 @@ const gallerySlides = [
     text: "El recorrido se dilata con ritmo de vanos y materiales fríos bajo los pies.",
   },
   {
-    src: "https://images.unsplash.com/photo-1600566753190-17f0baa2ada6?w=1400&q=85",
+    src: "https://picsum.photos/id/625/1400/1120",
     title: "Terraza",
     text: "El límite interior/exterior se desdibuja con losa continua y celosía de sombra.",
   },
@@ -63,11 +63,11 @@ const materials = [
   },
   {
     name: "Mármol travertino",
-    src: "https://images.unsplash.com/photo-1615976337492-443e2b2b4b61?w=900&q=85",
+    src: "https://picsum.photos/id/609/1200/1200",
   },
   {
     name: "Lino natural",
-    src: "https://images.unsplash.com/photo-1600210491892-03d1c2872e62?w=900&q=85",
+    src: "https://picsum.photos/id/691/1200/1200",
   },
   {
     name: "Latón satinado",

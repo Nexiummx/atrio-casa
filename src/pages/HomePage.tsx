@@ -1,19 +1,20 @@
-import { CursorRing } from "../components/CursorRing";
-import { HomeBrands } from "../components/home/HomeBrands";
-import { HomeFeatured } from "../components/home/HomeFeatured";
-import { HomeHero } from "../components/home/HomeHero";
-import { HomePillars } from "../components/home/HomePillars";
-import { HomeStudio } from "../components/home/HomeStudio";
+import { useRef } from "react";
+import { AtrioHero, CloseCta, MaterialsIndex, ProcessLine, ProjectsReel } from "../components/home/HomeApple";
+import { SunScene } from "../components/home/SunScene";
+import { useReveal } from "../hooks/useReveal";
 
 export function HomePage() {
+  const root = useRef<HTMLDivElement>(null);
+  useReveal(root);
+
   return (
-    <>
-      <CursorRing />
-      <HomeHero />
-      <HomePillars />
-      <HomeFeatured />
-      <HomeStudio />
-      <HomeBrands />
-    </>
+    <div ref={root}>
+      <AtrioHero />
+      <SunScene />
+      <ProjectsReel />
+      <MaterialsIndex />
+      <ProcessLine />
+      <CloseCta />
+    </div>
   );
 }

@@ -81,12 +81,12 @@ export const PROJECTS: ProjectItem[] = [
         "https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=1400&q=85",
       slides: [
         {
-          src: "https://images.unsplash.com/photo-1600566753190-17f0baa2ada6?w=1400&q=85",
+          src: "https://picsum.photos/id/625/1400/1120",
           title: "Sala doble altura",
           text: "El mobiliario bajo y la alfombra de lana definen islas de conversación sin cerrar el espacio.",
         },
         {
-          src: "https://images.unsplash.com/photo-1600210492486-724fe5c67f85?w=1400&q=85",
+          src: "https://picsum.photos/id/305/1400/1120",
           title: "Cocina y comedor",
           text: "Una sola losa de piedra une ambos usos; la iluminación lineal marca el eje.",
         },
@@ -99,7 +99,7 @@ export const PROJECTS: ProjectItem[] = [
       materials: [
         {
           name: "Piedra verde local",
-          src: "https://images.unsplash.com/photo-1615976337492-443e2b2b4b61?w=900&q=85",
+          src: "https://picsum.photos/id/609/1200/1200",
         },
         {
           name: "Carpintería de encino",
@@ -107,7 +107,7 @@ export const PROJECTS: ProjectItem[] = [
         },
         {
           name: "Textil crudo",
-          src: "https://images.unsplash.com/photo-1600210491892-03d1c2872e62?w=900&q=85",
+          src: "https://picsum.photos/id/691/1200/1200",
         },
       ],
     },
@@ -184,12 +184,12 @@ export const PROJECTS: ProjectItem[] = [
         "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1400&q=85",
       slides: [
         {
-          src: "https://images.unsplash.com/photo-1600210492486-724fe5c67f85?w=1400&q=85",
+          src: "https://picsum.photos/id/305/1400/1120",
           title: "Suite jardín",
           text: "Cama baja, lino y una sola lámpara de mesa definen el ritual nocturno.",
         },
         {
-          src: "https://images.unsplash.com/photo-1600566753190-17f0baa2ada6?w=1400&q=85",
+          src: "https://picsum.photos/id/625/1400/1120",
           title: "Pasillo al mar",
           text: "Sombras alargadas y piedra fría bajo los pies marcan el camino común.",
         },
@@ -200,9 +200,9 @@ export const PROJECTS: ProjectItem[] = [
         },
       ],
       materials: [
-        { name: "Chukum", src: "https://images.unsplash.com/photo-1615976337492-443e2b2b4b61?w=900&q=85" },
+        { name: "Chukum", src: "https://picsum.photos/id/609/1200/1200" },
         { name: "Parota", src: "https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?w=900&q=85" },
-        { name: "Losa terrazo", src: "https://images.unsplash.com/photo-1600210491892-03d1c2872e62?w=900&q=85" },
+        { name: "Losa terrazo", src: "https://picsum.photos/id/691/1200/1200" },
       ],
     },
   },
@@ -213,7 +213,7 @@ export const PROJECTS: ProjectItem[] = [
     category: "RESIDENCIAL",
     aspect: "1",
     image:
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2ada6?w=1200&q=85",
+      "https://picsum.photos/id/625/1400/1120",
     landing: {
       eyebrow: "RESIDENCIAL • 2024",
       location: "Ciudad de México",
@@ -248,7 +248,7 @@ export const PROJECTS: ProjectItem[] = [
       ],
       materials: [
         { name: "Roble europeo", src: "https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?w=900&q=85" },
-        { name: "Mármol gris", src: "https://images.unsplash.com/photo-1615976337492-443e2b2b4b61?w=900&q=85" },
+        { name: "Mármol gris", src: "https://picsum.photos/id/609/1200/1200" },
         { name: "Bronce", src: "https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=900&q=85" },
       ],
     },
@@ -260,7 +260,7 @@ export const PROJECTS: ProjectItem[] = [
     category: "RESIDENCIAL",
     aspect: "5/4",
     image:
-      "https://images.unsplash.com/photo-1600210492486-724fe5c67f85?w=1200&q=85",
+      "https://picsum.photos/id/305/1400/1120",
     landing: {
       eyebrow: "RESIDENCIAL • 2021",
       location: "Progreso, Yucatán",
@@ -275,7 +275,7 @@ export const PROJECTS: ProjectItem[] = [
       narrativeBody:
         "Los pisos interiores y exteriores comparten misma losa visual; solo cambia el tratamiento antideslizante al aire libre.",
       narrativeImage:
-        "https://images.unsplash.com/photo-1600210492486-724fe5c67f85?w=1400&q=85",
+        "https://picsum.photos/id/305/1400/1120",
       slides: [
         {
           src: "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1400&q=85",
@@ -382,14 +382,14 @@ export const PROJECTS: ProjectItem[] = [
           text: "Losas de concreto finas proyectan sombra sobre el comedor exterior.",
         },
         {
-          src: "https://images.unsplash.com/photo-1600566753190-17f0baa2ada6?w=1400&q=85",
+          src: "https://picsum.photos/id/625/1400/1120",
           title: "Recámara",
           text: "Textiles grises y luz indirecta tras el cabecero.",
         },
       ],
       materials: [
         { name: "Concreto aparente", src: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=900&q=85" },
-        { name: "Pizarra", src: "https://images.unsplash.com/photo-1615976337492-443e2b2b4b61?w=900&q=85" },
+        { name: "Pizarra", src: "https://picsum.photos/id/609/1200/1200" },
         { name: "Vidrio claro", src: "https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=900&q=85" },
       ],
     },
@@ -437,7 +437,7 @@ export const PROJECTS: ProjectItem[] = [
       materials: [
         { name: "Nogal americano", src: "https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?w=900&q=85" },
         { name: "Pintura mineral", src: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=900&q=85" },
-        { name: "Granito negro", src: "https://images.unsplash.com/photo-1615976337492-443e2b2b4b61?w=900&q=85" },
+        { name: "Granito negro", src: "https://picsum.photos/id/609/1200/1200" },
       ],
     },
   },

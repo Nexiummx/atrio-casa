@@ -5,31 +5,41 @@ export default {
   theme: {
     extend: {
       colors: {
+        /* Línea Apple en oscuro: negro, grises cálidos y la luz del sol como acento. */
         primary: {
-          bg: "#0A0A0A",
-          surface: "#1A1A1A",
-          border: "#2A2520",
+          bg: "#000000",
+          surface: "#161617",
+          border: "#3a3a3c",
         },
         ink: {
-          primary: "#F5F1EA",
-          secondary: "#8A8278",
-          muted: "#5A554E",
+          primary: "#f5f5f7",
+          secondary: "#a1a1a6",
+          muted: "#8e8e93",
         },
         accent: {
-          copper: "#B8845C",
-          copperHover: "#D4A37A",
+          copper: "#e8b25a",
+          copperHover: "#f2c57d",
+        },
+        field: {
+          night: "#11100e",
+          garden: "#222a24",
+          wood: "#3b2c21",
+          stone: "#d6c7ad",
         },
       },
       fontFamily: {
-        display: ['"Fraunces"', "Georgia", "serif"],
-        sans: ['"Inter Tight"', "system-ui", "sans-serif"],
+        display: ["-apple-system", "BlinkMacSystemFont", '"SF Pro Text"', '"Inter"', '"Segoe UI"', "system-ui", "sans-serif"],
+        sans: ["-apple-system", "BlinkMacSystemFont", '"SF Pro Text"', '"Inter"', '"Segoe UI"', "system-ui", "sans-serif"],
+      },
+      fontSize: {
+        xs: ["0.8125rem", { lineHeight: "1.45" }],
       },
       transitionTimingFunction: {
-        atrio: "cubic-bezier(0.16, 1, 0.3, 1)",
+        atrio: "cubic-bezier(0.22, 1, 0.36, 1)",
       },
       transitionDuration: {
         atrio: "800ms",
-        "atrio-fast": "400ms",
+        "atrio-fast": "240ms",
       },
       keyframes: {
         "scroll-hint": {
